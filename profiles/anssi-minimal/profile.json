@@ -1,0 +1,39 @@
+{
+  "profile": {
+    "uuid": "87c5b561-744f-43c7-8a42-e3005829c6f9",
+    "metadata": {
+      "title": "anssi-minimal",
+      "last-modified": "2025-04-07T14:42:48.616665+08:00",
+      "version": "REPLACE_ME",
+      "oscal-version": "1.1.2"
+    },
+    "imports": [
+      {
+        "href": "trestle:///Users/huiwang/rh-content/catalogs/anssi/catalog.json",
+        "include-controls": [
+          {
+            "with-ids": [
+              "r30",
+              "r31",
+              "r53",
+              "r54",
+              "r56",
+              "r58",
+              "r59",
+              "r61",
+              "r62",
+              "r68",
+              "r80"
+            ]
+          }
+        ]
+      }
+    ],
+    "merge": {
+      "combine": {
+        "method": "merge"
+      },
+      "as-is": true
+    }
+  }
+}
