@@ -1,0 +1,44 @@
+{
+  "profile": {
+    "uuid": "a709d71d-fb4d-451c-bf30-bdaf84e2d1fd",
+    "metadata": {
+      "title": "stig_rhel9-low",
+      "last-modified": "2025-04-09T16:21:01.199535+08:00",
+      "version": "REPLACE_ME",
+      "oscal-version": "1.1.2"
+    },
+    "imports": [
+      {
+        "href": "trestle:///Users/huiwang/rh-content/catalogs/stig_rhel9/catalog.json",
+        "include-controls": [
+          {
+            "with-ids": [
+              "rhel-09.211035",
+              "rhel-09.212050",
+              "rhel-09.212055",
+              "rhel-09.214035",
+              "rhel-09.231020",
+              "rhel-09.231025",
+              "rhel-09.231030",
+              "rhel-09.231195",
+              "rhel-09.252025",
+              "rhel-09.252030",
+              "rhel-09.291025",
+              "rhel-09.412040",
+              "rhel-09.412075",
+              "rhel-09.651030",
+              "rhel-09.651035",
+              "rhel-09.653120"
+            ]
+          }
+        ]
+      }
+    ],
+    "merge": {
+      "combine": {
+        "method": "merge"
+      },
+      "as-is": true
+    }
+  }
+}
