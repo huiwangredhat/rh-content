@@ -1,0 +1,36 @@
+{
+  "profile": {
+    "uuid": "f58be427-50fa-47f5-98a5-d6d7ac1508c1",
+    "metadata": {
+      "title": "e8-base",
+      "last-modified": "2025-04-09T16:36:09.033605+08:00",
+      "version": "REPLACE_ME",
+      "oscal-version": "1.1.2"
+    },
+    "imports": [
+      {
+        "href": "trestle:///Users/huiwang/rh-content/catalogs/e8/catalog.json",
+        "include-controls": [
+          {
+            "with-ids": [
+              "app_control",
+              "app_hardening",
+              "backups",
+              "hardening",
+              "mfa",
+              "patching",
+              "restrict_admin",
+              "restrict_macros"
+            ]
+          }
+        ]
+      }
+    ],
+    "merge": {
+      "combine": {
+        "method": "merge"
+      },
+      "as-is": true
+    }
+  }
+}
